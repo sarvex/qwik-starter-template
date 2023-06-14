@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.1.5
     version: 1.1.5
   '@types/eslint':
-    specifier: 8.40.1
-    version: 8.40.1
+    specifier: 8.40.2
+    version: 8.40.2
   '@types/node':
     specifier: 20.2.0
     version: 20.2.0
@@ -48,8 +48,8 @@ devDependencies:
     specifier: 5.22.1
     version: 5.22.1
   vercel:
-    specifier: 30.2.1
-    version: 30.2.1(@types/node@20.2.0)
+    specifier: 30.2.2
+    version: 30.2.2(@types/node@20.2.0)
   vite:
     specifier: 4.3.9
     version: 4.3.9(@types/node@20.2.0)
@@ -2024,8 +2024,8 @@ packages:
       '@types/ms': 0.7.31
     dev: true
 
-  /@types/eslint@8.40.1:
-    resolution: {integrity: sha512-vRb792M4mF1FBT+eoLecmkpLXwxsBHvWWRGJjzbYANBM6DtiJc6yETyv4rqDA6QNjF1pkj1U7LMA6dGb3VYlHw==}
+  /@types/eslint@8.40.2:
+    resolution: {integrity: sha512-PRVjQ4Eh9z9pmmtaq8nTjZjQwKFk7YIHIud3lRoKRBgUQjgjRmoGxxGEPXQkF+lH7QkHJRNr5F4aBgYCW0lqpQ==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.11
@@ -7475,8 +7475,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@30.2.1(@types/node@20.2.0):
-    resolution: {integrity: sha512-rfyFhUGCXfT+B1gBdFymhCmqbeXwtKosouoxc5uErvPqUOn7mdp8Ibaj1mCvYzrRNW99MpyHo/DwXTXGrJi84Q==}
+  /vercel@30.2.2(@types/node@20.2.0):
+    resolution: {integrity: sha512-lUHOUvXwALYxtZ1pbiT/YD3OijGPIo7yT/WGC1BOCPt08Vx1bUzNhMRX6eAp+tuFfqccG+NeDUjOfhpWGTwulA==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true

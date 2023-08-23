@@ -25,7 +25,7 @@
     "@builder.io/qwik": "1.2.7",
     "@builder.io/qwik-city": "1.2.7",
     "@types/eslint": "8.44.2",
-    "@types/node": "20.5.1",
+    "@types/node": "20.5.3",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@typescript-eslint/parser": "6.4.1",
     "autoprefixer": "10.4.15",
@@ -36,7 +36,7 @@
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6",
     "undici": "5.23.0",
-    "vercel": "32.0.0",
+    "vercel": "32.0.1",
     "vite": "4.4.9",
     "vite-tsconfig-paths": "4.2.0"
   }

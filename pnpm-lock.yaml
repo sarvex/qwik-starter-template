@@ -7,16 +7,16 @@ settings:
 devDependencies:
   '@builder.io/qwik':
     specifier: 1.2.13
-    version: 1.2.13(undici@5.26.3)
+    version: 1.2.13(undici@5.26.4)
   '@builder.io/qwik-city':
     specifier: 1.2.13
     version: 1.2.13
   '@types/eslint':
-    specifier: 8.44.4
-    version: 8.44.4
+    specifier: 8.44.6
+    version: 8.44.6
   '@types/node':
-    specifier: 20.8.6
-    version: 20.8.6
+    specifier: 20.8.7
+    version: 20.8.7
   '@typescript-eslint/eslint-plugin':
     specifier: 6.8.0
     version: 6.8.0(@typescript-eslint/parser@6.8.0)(eslint@8.51.0)(typescript@5.2.2)
@@ -45,14 +45,14 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   undici:
-    specifier: 5.26.3
-    version: 5.26.3
+    specifier: 5.26.4
+    version: 5.26.4
   vercel:
     specifier: 32.4.1
     version: 32.4.1
   vite:
     specifier: 4.4.11
-    version: 4.4.11(@types/node@20.8.6)
+    version: 4.4.11(@types/node@20.8.7)
   vite-tsconfig-paths:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.2.2)(vite@4.4.11)
@@ -85,7 +85,7 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.2.13(undici@5.26.3):
+  /@builder.io/qwik@1.2.13(undici@5.26.4):
     resolution: {integrity: sha512-JVBBfkoFNGDd6BZzuk8k2rS+Td9SLngZWk0j6lJCQNPj548vA4DdERlUM+iHe3BYq2q7A3oMo63vUF74h42gDw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -93,7 +93,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.26.3
+      undici: 5.26.4
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -569,8 +569,8 @@ packages:
       '@types/ms': 0.7.31
     dev: true
 
-  /@types/eslint@8.44.4:
-    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
+  /@types/eslint@8.44.6:
+    resolution: {integrity: sha512-P6bY56TVmX8y9J87jHNgQh43h6VVU+6H7oN7hgvivV81K2XY8qJZ5vqPy/HdUoVIelii2kChYVzQanlswPWVFw==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.12
@@ -614,8 +614,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: true
 
-  /@types/node@20.8.6:
-    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
+  /@types/node@20.8.7:
+    resolution: {integrity: sha512-21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==}
     dependencies:
       undici-types: 5.25.3
     dev: true
@@ -4499,8 +4499,8 @@ packages:
       busboy: 1.6.0
     dev: true
 
-  /undici@5.26.3:
-    resolution: {integrity: sha512-H7n2zmKEWgOllKkIUkLvFmsJQj062lSm3uA4EYApG8gLuiOM0/go9bIoC3HVaSnfg4xunowDE2i9p8drkXuvDw==}
+  /undici@5.26.4:
+    resolution: {integrity: sha512-OG+QOf0fTLtazL9P9X7yqWxQ+Z0395Wk6DSkyTxtaq3wQEjIroVe7Y4asCX/vcCxYpNGMnwz8F0qbRYUoaQVMw==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
@@ -4707,13 +4707,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.2.2)
-      vite: 4.4.11(@types/node@20.8.6)
+      vite: 4.4.11(@types/node@20.8.7)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.4.11(@types/node@20.8.6):
+  /vite@4.4.11(@types/node@20.8.7):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4741,7 +4741,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
       esbuild: 0.18.16
       postcss: 8.4.31
       rollup: 3.28.0
